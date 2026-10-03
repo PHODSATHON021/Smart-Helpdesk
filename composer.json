@@ -1,0 +1,15 @@
+{
+  "name": "student/smart-helpdesk",
+  "description": "Smart IT Helpdesk & Notification System - Custom OOP PHP (No Framework)",
+  "type": "project",
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*",
+    "ext-curl": "*",
+    "ext-fileinfo": "*"
+  },
+  "autoload": {
+    "psr-4": { "App\\": "src/" },
+    "files": ["src/helpers.php"]
+  }
+}
